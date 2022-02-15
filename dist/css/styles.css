@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+html,
+body {
+  background: #C5E4E7;
+  font-family: 'Space Mono', monospace;
+}
+
+.grey-copy {
+  color: #7F9D9F !important;
+}
+
+.green-btn {
+  background: #26C2AE !important;
+  color: #00474B !important;
+  font-weight: 700;
+}
+
+.num {
+  color: #26C2AE !important;
+}
+
+.logo-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.tip-col-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tip-col-container {
+  min-height: 300px;
+  height: 100%;
+  background: white;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.tip-col-container #bill {
+  text-align: right;
+  border-radius: 5px;
+  border: solid 1px transparent;
+}
+
+.tip-col-container #bill:focus {
+  border: solid 1px transparent;
+}
+
+.tip-col-container #custom-input {
+  background: none;
+  text-align: center;
+  background: #F3F9FA;
+  border: solid 1px transparent;
+  color: #547878 !important;
+}
+
+.tip-col-container #custom-input:focus {
+  border: solid 1px #26C2AE !important;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(38, 194, 174, 0.5);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(38, 194, 174, 0.5);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tip-col-container #custom-btn {
+  background: none;
+  padding: 0;
+}
+
+.tip-col-container .dollar-input {
+  position: relative;
+}
+
+.tip-col-container .dollar-input .dollar {
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+  height: 100%;
+}
+
+.tip-col-container .dollar-input .dollar .input-group-text {
+  background: none;
+  border: none;
+}
+
+.tip-col-container .dollar-input .dollar-icon {
+  height: 100%;
+}
+
+.tip-col-container .left-container-col .input-group input {
+  background: #F3F9FA;
+}
+
+.tip-col-container .left-container-col .input-group input:focus {
+  border: solid 1px transparent !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tip-col-container .left-container-col .pound-img {
+  height: 50%;
+}
+
+.tip-col-container .people-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+.tip-col-container .people-label .error {
+  font-size: 0.75em;
+  color: red;
+  opacity: 0;
+}
+
+.tip-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tip-group .btn {
+  background-color: #00474B;
+  color: #FFFFFF;
+  width: 30%;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tip-group .btn:hover {
+  background: #9FE8DF;
+  color: #00474B;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.people-group {
+  position: relative;
+}
+
+.people-group .people-num {
+  height: 100%;
+  background: none;
+  border: transparent;
+}
+
+.people-group .people-icon {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  height: 100%;
+  border: transparent;
+}
+
+.people-group #people {
+  text-align: right;
+  background: #F3F9FA;
+  border-radius: 5px;
+  border: solid 1px transparent;
+}
+
+.people-group #people:focus {
+  border: solid 1px transparent !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.right-container-col .display-container {
+  background: #00474B;
+  height: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-container-col .display-container .amount-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.right-container-col .display-container .amount-group p {
+  margin: 0;
+  color: white;
+  font-size: 0.75em;
+}
+
+.right-container-col .display-container .amount-group .tip-amount {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.right-container-col .display-container .total {
+  margin-top: 20px;
+}
+
+.right-container-col .display-container .tip-reset {
+  width: 100%;
+  background: #26C2AE;
+}

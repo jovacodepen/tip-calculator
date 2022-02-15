@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+html,
+body {
+    background: #C5E4E7;
+    font-family: 'Space Mono', monospace;
+}
+
+.grey-copy {
+    color: #7F9D9F !important;
+}
+
+.green-btn {
+    background: #26C2AE !important;
+    color: #00474B !important;
+    font-weight: 700;
+}
+
+.num {
+    color: #26C2AE !important;
+}
+
+.logo-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tip-col-row {
+    justify-content: center;
+}
+
+.tip-col-container {
+    min-height: 300px;
+    height: 100%;
+    background: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    #bill {
+        text-align: right;
+        border-radius: 5px;
+        border: solid 1px transparent;
+        &:focus {
+            border: solid 1px transparent;
+        }
+    }
+    #custom {
+        &-input {
+            background: none;
+            text-align: center;
+            background: #F3F9FA;
+            border: solid 1px transparent;
+            color: #547878 !important;
+            &:focus {
+                border: solid 1px #26C2AE !important;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(38, 194, 174, 0.5);
+                transition: all 0.3s ease;
+            }
+        }
+        &-btn {
+            background: none;
+            padding: 0;
+        }
+    }
+    .dollar-input {
+        position: relative;
+        .dollar {
+            position: absolute;
+            left: 0px;
+            z-index: 10;
+            height: 100%;
+            .input-group-text {
+                background: none;
+                border: none;
+            }
+        }
+        .dollar-icon {
+            height: 100%;
+        }
+    }
+    .left-container-col {
+        .input-group {
+            input {
+                background: #F3F9FA;
+                &:focus {
+                    border: solid 1px transparent !important;
+                    box-shadow: none;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+        .pound-img {
+            height: 50%;
+        }
+    }
+    .people-label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        .error {
+            font-size: 0.75em;
+            color: red;
+            opacity: 0;
+        }
+    }
+}
+
+.tip-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    .btn {
+        background-color: #00474B;
+        color: #FFFFFF;
+        width: 30%;
+        margin-bottom: 10px;
+        transition: all 0.3s ease;
+        &:hover {
+            background: #9FE8DF;
+            color: #00474B;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+.people-group {
+    position: relative;
+    .people-num {
+        height: 100%;
+        background: none;
+        border: transparent;
+    }
+    .people-icon {
+        position: absolute;
+        left: 0;
+        z-index: 10;
+        height: 100%;
+        border: transparent;
+    }
+    #people {
+        text-align: right;
+        background: #F3F9FA;
+        border-radius: 5px;
+        border: solid 1px transparent;
+        &:focus {
+            border: solid 1px transparent !important;
+            box-shadow: none;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+.right-container-col {
+    .display-container {
+        background: #00474B;
+        height: 100%;
+        padding: 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        .amount-group {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            p {
+                margin: 0;
+                color: white;
+                font-size: 0.75em;
+            }
+            .tip-amount {
+                font-size: 2.5em;
+                font-weight: 700;
+            }
+        }
+        .total {
+            margin-top: 20px;
+        }
+        .tip-reset {
+            width: 100%;
+            background: #26C2AE;
+        }
+    }
+}
